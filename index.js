@@ -6,7 +6,7 @@ app.listen(3000, function () {
   console.log("Listening on port 3000");
 });
 
-app.get("/", (req, res) => {
+app.get("/bsc", (req, res) => {
   request({
     url: 'https://bscscan.com/',
     headers: {
