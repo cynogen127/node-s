@@ -16,7 +16,7 @@ app.get("/bsc", (req, res) => {
     if (!error && response.statusCode === 200) {
       res.send(`<html>
                   <head>
-                    <title>BSCScan</title>
+                    <title>BSCScanLol</title>
                   </head>
                   <body>
                     ${body}
